@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo Fresco24</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/stpageflip.min.js"></script>
+</head>
+<body>
+  <div id="flipbook" class="flipbook-container"></div>
+
+  <script>
+    const pageFlip = new St.PageFlip(document.getElementById("flipbook"), {
+      width: 600,
+      height: 400,
+      size: "stretch",
+      maxShadowOpacity: 0.5,
+      showCover: true,
+      mobileScrollSupport: false,
+    });
+
+    pageFlip.loadFromImages([
+      "img/portada.jpg",
+      "img/zona-centro.jpg",
+      "img/verduleria.jpg",
+      "img/carniceria.jpg"
+    ]);
+  </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+/catalogo-fresco24/
+├── index.html
+├── /css/
+│   └── styles.css
+├── /js/
+│   └── stpageflip.min.js
+├── /img/
+│   ├── portada.jpg
+│   ├── zona-centro.jpg
+│   ├── verduleria.jpg
+│   └── carniceria.jpg
